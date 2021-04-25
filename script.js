@@ -12,7 +12,7 @@ button.addEventListener('click', (e) => {
   } else {
     alert('Pilih gender dulu');
   }
-  e.preventDefault;
+  e.preventDefault();
 });
 
 function hitung(gender, tinggi) {
