@@ -12,3 +12,126 @@ li {
 a {
   text-decoration: none;
 }
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1611077544170-be90a2f68add?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  display: flex;
+}
+
+.container::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.container {
+  width: 550px;
+  height: max-content;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #eaeaea90;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px #00000070;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+form {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+form label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+}
+
+form .gender {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+form .tinggi {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+form .tinggi label {
+  margin-bottom: 20px;
+}
+
+form .tinggi input {
+  height: 45px;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+
+form button {
+  font-size: 1.8rem;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: orange;
+  font-weight: 550;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+}
+
+.result h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.result .result-box {
+  width: 100px;
+  height: 50px;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  border-radius: 10px;
+}
+
+.result .result-box p {
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: orange;
+}
