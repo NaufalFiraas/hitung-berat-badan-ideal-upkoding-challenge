@@ -91,6 +91,7 @@ form .tinggi input {
   height: 45px;
   border-radius: 10px;
   padding: 0 5px;
+  font-size: 1.3rem;
 }
 
 form button {
