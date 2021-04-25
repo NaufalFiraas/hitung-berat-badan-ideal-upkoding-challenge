@@ -44,7 +44,7 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  background-color: #eaeaea90;
+  background-color: rgba(234, 234, 234, 0.9);
   border-radius: 15px;
   box-shadow: 3px 3px 5px #00000070;
   text-align: center;
@@ -121,11 +121,12 @@ form button:hover {
 }
 
 .result .result-box {
-  width: 100px;
+  width: 120px;
   height: 50px;
   background-color: #fff;
   margin: auto;
   display: flex;
+  justify-content: center;
   border-radius: 10px;
 }
 
